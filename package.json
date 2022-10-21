@@ -1,0 +1,28 @@
+{
+  "name": "101197753_assignmnet1",
+  "version": "1.0.0",
+  "description": "101197753_assignmnet1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node server.js",
+    "server": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "expressJS","nodeJS",
+    "API","mongoDB","mongoose"
+  ],
+  "author": "Mustafa izci",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "mongoose": "^5.13.13"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.20"
+  }
+}
