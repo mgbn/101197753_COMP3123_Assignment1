@@ -69,7 +69,7 @@ app.put('/api/emp/employees/:id', async (req, res) => {
 
 
 //Delete Record
-//localhost:8081/employee/5d1f6c3e4b0b88fb1d257237
+//localhost:8082/api/emp/employees/5d1f6c3e4b0b88fb1d257237
 app.delete('/api/emp/employees/:id', async (req, res) => {
   try {
     const employee = await employeeModel.findByIdAndDelete(req.params.id)

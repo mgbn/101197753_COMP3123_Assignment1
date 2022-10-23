@@ -14,7 +14,7 @@ app.use(cors())
 
 //TODO - Replace you Connection String here
 
-mongoose.connect('mongodb+srv://Mustafa:m1g2b3n4@cluster0.zf9udrk.mongodb.net/db_full?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Mustafa:m1g2b3n4@cluster0.zf9udrk.mongodb.net/comp3123_assignment1?retryWrites=true&w=majority',
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
 // mongoose.connect('mongodb://localhost:27017/myapp');
 
